@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Mohamed Amine Guizani – Electromechanical engineering student specializing in 3D mechanical design and SolidWorks modeling.">
+    <meta name="keywords" content="SolidWorks, CAD, 3D Modeling, Mechanical Design, Portfolio, Mohamed Amine Guizani">
+    <title>Mohamed Amine Guizani - 3D CAD Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        section {
+            padding: 2rem 0;
+        }
+        h2 {
+            color: #333;
+        }
+        .portfolio-item {
+            display: inline-block;
+            width: 30%;
+            margin: 1.5%;
+            vertical-align: top;
+            background: #fff;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "• ";
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            margin: 2rem 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+        @media (max-width: 768px) {
+            .portfolio-item {
+                width: 100%;
+                margin: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mohamed Amine Guizani - 3D CAD Portfolio</h1>
+        </div>
+    </header>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Mohamed Amine Guizani, an electromechanical engineering student and 3D design enthusiast. I specialize in mechanical CAD modeling using SolidWorks, creating functional and manufacturable parts with precision and creativity.</p>
+        <p>Whether it's a small component or a complex assembly, I strive to deliver high-quality designs tailored to specific needs. With every project, I aim to combine technical accuracy with practical design thinking.</p>
+        <p>My mission? Helping individuals and businesses bring their mechanical ideas to life with professionalism, speed, and a solid engineering mindset.</p>
+    </section>
+    <section id="services" class="container">
+        <h2>Services</h2>
+        <ul style="display:inline-block; text-align:left;">
+            <li>🔧 3D Modeling of mechanical parts (SolidWorks)</li>
+            <li>📐 Technical drawings for manufacturing</li>
+            <li>🧩 Assembly design and documentation</li>
+            <li>🎯 Custom CAD solutions for students and professionals</li>
+        </ul>
+    </section>
+    <section id="portfolio" class="container" style="padding-bottom: 100px;">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Custom Machined Part – 3D CAD Model</h3>
+            <p>A fully-defined solid component suitable for machining or prototyping. Designed for stability and accuracy.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Universal Mounting Bracket – SolidWorks</h3>
+            <p>A precision mounting solution used for connecting mechanical sub-assemblies together.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project3.jpg" alt="Project 3">
+            <h3>Reinforced Mechanical Support</h3>
+            <p>3D-modeled structural support designed for load-bearing and easy integration into larger systems.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project4.jpg" alt="Project 4">
+            <h3>Dual-Sided Assembly Component</h3>
+            <p>Symmetrical design with dual cut-outs optimized for two-axis alignment and rotational compatibility.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project5.jpg" alt="Project 5">
+            <h3>Angular Mount with Slot – Precision Fit</h3>
+            <p>Mount with inclined plane and lateral slot, ideal for adjustable support in mechanical setups.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project6.jpg" alt="Project 6">
+            <h3>Rack & Pinion Component – Linear Motion</h3>
+            <p>3D design of a rack gear system used in linear actuators and mechanical drives.</p>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mohamed Amine Guizani. All rights reserved. | Contact: <a href="mailto:mohamedamineguizani6@gmail.com">mohamedamineguizani6@gmail.com</a></p>
+        <p><a href="cv_mohamed_amine_guizani.pdf" download>📄 Télécharger mon CV</a></p>
+    </footer>
+</body>
+</html>
